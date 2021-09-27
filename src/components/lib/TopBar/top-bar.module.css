@@ -1,0 +1,11 @@
+.topBar {
+  height: 64px;
+  border-bottom: 1px solid #eeeff2;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+}
+.logo {
+  width: 109px;
+  height: 40px;
+}

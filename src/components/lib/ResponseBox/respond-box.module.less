@@ -1,0 +1,30 @@
+.respondBox {
+  border: 1px solid #dadce0;
+  border-radius: 5px;
+  padding: 15px;
+
+  & :global(textarea) {
+    width: 100%;
+    border: none;
+    resize: none;
+    &:focus {
+      outline: none;
+      border: none;
+      box-shadow: none;
+    }
+  }
+}
+
+.replyingText {
+    font-weight: 600;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  & :global(svg) {
+    font-size: 18px;
+  }
+}

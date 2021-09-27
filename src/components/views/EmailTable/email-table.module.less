@@ -1,0 +1,8 @@
+@import url("../../../styles/vars.less");
+.table {
+  width: calc(calc(100vw - @sidebar-width) - @right-side-bar);
+
+  & :global(tbody tr) {
+    cursor: pointer;
+  }
+}
